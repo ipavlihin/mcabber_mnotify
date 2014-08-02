@@ -47,6 +47,4 @@ target_link_libraries(mnotify ${GLIB_LIBRARIES}
   ${MCABBER_LIBRARIES} ${GTK+_LIBRARIES} ${LIBNOTIFY_LIBRARIES})
 set_target_properties(mnotify PROPERTIES COMPILE_FLAGS "-Wall")
 
-configure_file(notify.avv.in notify.avv)
-
 ## The End ## vim: se ts=4: ##
