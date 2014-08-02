@@ -1,0 +1,11 @@
+
+Name:        ${PROJECT_NAME}
+Method:      glib
+Version:     ${PROJECT_VERSION}
+Description: ${CPACK_PACKAGE_DESCRIPTION_SUMMARY}
+Requires:    utils:2 + ( commands:4 | commands:3 ) + ( roster:4 | roster:3 | roster:2 | roster:1 ) +
+             ( hooks:5 | hooks:4 | hooks:3 | hooks:2 | hooks:1 ) + logprint:3 + settings:1 +
+	     ( xmpp:6 | xmpp:5 | xmpp:4 | xmpp:3 | xmpp:2 | xmpp:1 )
+Init:        mnotify_init
+Uninit:      mnotify_uninit
+
